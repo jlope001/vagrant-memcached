@@ -2,7 +2,6 @@ FROM       centos:centos7
 MAINTAINER Jose Lopez "jlope001@gmail.com"
 
 # Enable additional repositories
-RUN yum -y update
 RUN yum -y install memcached
 
 EXPOSE 11211
